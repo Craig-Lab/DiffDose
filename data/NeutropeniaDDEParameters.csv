@@ -1,0 +1,85 @@
+code_field,default_value,manuscript_value,role,category,unit_or_definition,provenance
+Qstar,1.1,1.1,fixed,hematopoiesis,"steady-state HSC count; 10^6 cells/kg",Craig2015/Craig2016
+gamma_s,0.1,0.1,fixed,hematopoiesis,day^-1 stem-cell apoptosis,Craig2015/Craig2016
+tau_s,2.8,2.8,fixed,hematopoiesis,day stem-cell cycling delay,Craig2015/Craig2016
+AQstar,1.511567,1.511567,calculated,hematopoiesis,2*exp(-gamma_s*tau_s),homeostatic identity
+fQ,8.0,8.0,fixed,hematopoiesis,maximum self-renewal rate,Craig2015/Craig2016
+s2,2.0,2.0,fixed,hematopoiesis,self-renewal Hill exponent,Craig2015/Craig2016
+BetaQstar,0.043,0.043,fixed,hematopoiesis,homeostatic self-renewal rate,Craig2015/Craig2016
+theta2,0.0808634,0.0808634,calculated,hematopoiesis,"[Qstar^s2*BetaQstar/(fQ-BetaQstar)]^(1/s2)",homeostatic identity
+Np,0.93,0.93,fixed,hematopoiesis,proliferative precursor constant,Craig2015/Craig2016
+Nm,4.51,4.51,fixed,hematopoiesis,maturation-compartment constant,Craig2015/Craig2016
+Nrstar,2.26,2.26,fixed,hematopoiesis,marrow-reservoir homeostasis,Craig2015/Craig2016
+Nstar,0.376068,0.376068,calculated,hematopoiesis,0.22/0.585 circulating homeostasis,homeostatic identity
+gamma_N,2.1875,2.1875,fixed,hematopoiesis,35/16 day^-1 circulating-neutrophil loss,Craig2015/Craig2016
+tauNC,0.457143,0.457143,calculated,hematopoiesis,16/35 day,homeostatic identity
+trans_homeo,0.364004,0.364004,calculated,hematopoiesis,gamma_N*Nstar/Nrstar,homeostatic identity
+aNM,3.9,3.9,fixed,hematopoiesis,day homeostatic maturation time,Craig2015/Craig2016
+tauNR,2.7,2.7,fixed,hematopoiesis,day reservoir transit time,Craig2015/Craig2016
+gammaNr,0.00636613,0.00636613,calculated,hematopoiesis,1/tauNR-trans_homeo,homeostatic identity
+gammaNM,0.157691,0.157691,calculated,hematopoiesis,positive root used in maturation amplification,homeostatic identity
+kappaNstar,0.00733247,0.00733247,calculated,hematopoiesis,(AQstar-1)*BetaQstar/3,homeostatic identity
+kappa_delta,0.0146649,0.0146649,calculated,hematopoiesis,HSC steady-state balance,homeostatic identity
+kappa_delta1,0.0146649,0.0146649,calculated,hematopoiesis,2*(AQstar-1)*BetaQstar/3,homeostatic identity
+ANstar,103777.178,103777.178,calculated,hematopoiesis,Nrstar/(kappaNstar*Qstar*1e-3*tauNR),homeostatic identity
+etaNPTAU,191951.293,191951.293,calculated,hematopoiesis,ANstar*exp(gammaNM*aNM),homeostatic identity
+etaNP_h,1.664749,1.664749,calculated,hematopoiesis,homeostatic precursor proliferation,homeostatic identity
+tauNP,7.307408,7.307408,calculated,hematopoiesis,day proliferative delay,homeostatic identity
+Ntot,4.2009,4.2009,estimated,hematopoiesis,source calibration constant,Craig2015
+muval,0.844575731873359,0.844575731873359,estimated,hematopoiesis,minimum-proliferation multiplier,Craig2015
+bNP,0.022867963747985,0.022867963747985,estimated,hematopoiesis,G-CSF proliferation scale,Craig2015
+Vmax,7.866997674083609,7.866997674083609,estimated,hematopoiesis,maximum maturation velocity,Craig2015
+trans_ratio,11.355614184371277,11.355614184371277,estimated,hematopoiesis,maximum marrow-release ratio,Craig2015
+ftrans0,0.020055920452792,0.020055920452792,estimated,hematopoiesis,G-CSF-null marrow-release rate,Craig2015
+bvtilde,0.031283425611887,0.031283425611887,estimated,hematopoiesis,scaled maturation constant,Craig2015
+bv,0.246107,0.246107,calculated,hematopoiesis,bvtilde*Vmax,homeostatic identity
+s1,1.5,1.5,fixed,hematopoiesis,G-CSF differentiation Hill exponent,Craig2015/Craig2016
+etaNP_min,1.406006,1.406006,calculated,hematopoiesis,muval*etaNP_h,homeostatic identity
+kappaN_min,0.00733247,0.00733247,calculated,hematopoiesis,knockout/homeostatic identity,homeostatic identity
+bG,0.000189240,0.000189240,calculated,hematopoiesis,homeostatic marrow-release identity,homeostatic identity
+trans_max,4.133492,4.133492,calculated,hematopoiesis,trans_ratio*trans_homeo,homeostatic identity
+kren,0.16139,0.16139,fixed,gcsf_pk,day^-1 renal elimination,Craig2016
+kint,462.4209,462.4209,fixed,gcsf_pk,day^-1 receptor-mediated internalization,Craig2016
+k12G,2.2423,2.2423,fixed,gcsf_pk,G-CSF association,Craig2016
+k21G,184.8658,184.8658,fixed,gcsf_pk,G-CSF dissociation,Craig2016
+Gstar,0.025,0.025,fixed,gcsf_pk,free G-CSF homeostasis,Craig2016
+V,0.525,0.525,fixed,gcsf_pk,G-CSF binding-volume factor,Craig2016
+pow,1.4608,1.4608,fixed,gcsf_pk,G-CSF binding exponent,Craig2016
+G2_h,2.18986e-5,2.18986e-5,calculated,gcsf_pk,G-CSF steady-state binding balance,homeostatic identity
+Gprod,0.0141611,0.0141611,calculated,gcsf_pk,G-CSF steady-state production balance,homeostatic identity
+F,0.64466,0.64466,fixed,gcsf_pk,subcutaneous filgrastim bioavailability,Craig2015
+ka,8.0236,8.0236,fixed,gcsf_pk,day^-1 filgrastim absorption,Craig2015
+Vd,2322.9,2322.9,fixed,gcsf_pk,filgrastim distribution volume,Craig2015
+Cl,1048.8,1048.8,fixed,chemotherapy_pk,43.7*24 clearance,GonzalezSales2012
+V1,32.7,32.7,fixed,chemotherapy_pk,central volume,GonzalezSales2012
+Q2,2952.0,2952.0,fixed,chemotherapy_pk,123*24 intercompartmental clearance,GonzalezSales2012
+V2,162.0,162.0,fixed,chemotherapy_pk,first peripheral volume,GonzalezSales2012
+Q3,271.2,271.2,fixed,chemotherapy_pk,11.3*24 intercompartmental clearance,GonzalezSales2012
+V3,388.0,388.0,fixed,chemotherapy_pk,second peripheral volume,GonzalezSales2012
+Q4,1495.2,1495.2,fixed,chemotherapy_pk,62.3*24 intercompartmental clearance,GonzalezSales2012
+V4,23.9,23.9,fixed,chemotherapy_pk,third peripheral volume,GonzalezSales2012
+BSA,1.723,1.723,fixed,chemotherapy_pk,body-surface-area multiplier,Craig2015
+k10,32.073394,32.073394,calculated,chemotherapy_pk,Cl/V1,derived PK rate
+k12,90.275229,90.275229,calculated,chemotherapy_pk,Q2/V1,derived PK rate
+k21,18.222222,18.222222,calculated,chemotherapy_pk,Q2/V2,derived PK rate
+k13,8.293578,8.293578,calculated,chemotherapy_pk,Q3/V1,derived PK rate
+k31,0.698969,0.698969,calculated,chemotherapy_pk,Q3/V3,derived PK rate
+k24,9.229630,9.229630,calculated,chemotherapy_pk,Q4/V2,derived PK rate
+k42,62.560669,62.560669,calculated,chemotherapy_pk,Q4/V4,derived PK rate
+EC50,0.75390,0.75390,estimated,chemotherapy_pd,mg/L half-effect concentration,Craig2015
+sc,0.89816,0.89816,estimated,chemotherapy_pd,chemotherapy Hill exponent,Craig2015
+hQ,0.0079657,0.0079657,estimated,chemotherapy_pd,chemotherapy effect on stem-cell amplification,Craig2015
+eta_NPneg,0.0,0.0,fixed,chemotherapy_pd,limiting precursor proliferation,Craig2015
+hS,0.0,0.0,unused,chemotherapy_pd,retained source field not used by 12-state RHS,Craig2015
+AdminChemo,1,1,scenario,treatment,chemotherapy enabled,DiffDose benchmark
+DoseChemo,4000.0,4000.0,scenario,treatment,mg/m^2 chemotherapy dose,DiffDose benchmark
+TotalDose,6892.0,6892.0,calculated,treatment,DoseChemo*BSA,DiffDose benchmark
+DeltaC,0.0416666667,0.0416666667,scenario,treatment,day chemotherapy infusion duration,DiffDose benchmark
+AdminGCSF,0,1,scenario,treatment,G-CSF disabled by default and enabled in benchmark,DiffDose benchmark
+Dose,300000.0,300000.0,scenario,treatment,ng per filgrastim administration,DiffDose benchmark
+Period,21.0,14.0,scenario,treatment,day chemotherapy cycle length,DiffDose benchmark
+DayAdminChemo,0.0,0.0,scenario,treatment,day relative to cycle start,DiffDose benchmark
+NumAdminsChemo,1,7,scenario,treatment,number of chemotherapy cycles,DiffDose benchmark
+GCSFPeriod,1.0,1.0,scenario,treatment,day retained repeated-dose spacing,DiffDose benchmark
+AdminsGCSF,1,1,scenario,treatment,one injection per cycle,DiffDose benchmark
+AdminDay,15.0,"optimized in [0.5,13.0]",control,treatment,day relative to each cycle start,DiffDose benchmark

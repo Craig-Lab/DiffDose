@@ -1,0 +1,63 @@
+parameter,lower_bound,upper_bound,base_value,sampling_scale,source,family,applied_to_model,note
+Bpbo_perml,250000.0,1.0e6,1.0e6,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+Bpbref_perml,250000.0,1.0e6,1.0e6,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+Cl_tdb,1.5,5.4,3.0,log10,dlbcl_range_efast,PK_exposure,true,Previous DLBCL-range eFAST parameter.
+IL6_tiss_contribution,0.0004,0.02,0.002,log10,forced_susilo_il6,IL6,true,Forced IL6 tissue contribution parameter.
+KBp,1.0,900.0,1.0,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+KBp2,1.0,600.0,1.0,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+KBp3,60.0,600.0,600.0,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+KTrp,1.0,500.0,1.0,log10,dlbcl_range_efast,t_cell_activation_infiltration,true,Previous DLBCL-range eFAST parameter.
+KTrp2,0.02,500.0,0.02,log10,dlbcl_range_efast,t_cell_activation_infiltration,true,Previous DLBCL-range eFAST parameter.
+KTrp3,50.0,500.0,500.0,log10,dlbcl_range_efast,t_cell_activation_infiltration,true,Previous DLBCL-range eFAST parameter.
+Vpb,40.0,5000.0,40.0,log10,dlbcl_range_efast,PK_exposure,true,Previous DLBCL-range eFAST parameter.
+Vtissue,7.0,210.0,40.0,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+Vtissue2,1.0,400.0,1.0,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+Vtissue3,1.0,500.0,1.0,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+fTap,1.0,3.773,1.0,log10,dlbcl_range_efast,t_cell_activation_infiltration,true,Previous DLBCL-range eFAST parameter.
+Trpbo_perml,500000.0,2.0e6,2.0e6,log10,dlbcl_range_efast,t_cell_activation_infiltration,true,Previous DLBCL-range eFAST parameter.
+Trpbref_perml,500000.0,2.0e6,2.0e6,log10,dlbcl_range_efast,t_cell_activation_infiltration,true,Previous DLBCL-range eFAST parameter.
+Cld_tdb,24.17,25.0,25.0,linear,dlbcl_range_efast,PK_exposure,true,Previous DLBCL-range eFAST parameter.
+KdrugB,1.302,10.0,10.0,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+KdrugactT,50.0,130.083,50.0,linear,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+KmBT_act,0.1,0.716,0.1,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+Km_tdb,4.74,5.72,4.74,linear,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+Kptumor,0.05,1.0,1.0,log10,dlbcl_range_efast,tumor_burden_growth_infiltration,true,Previous DLBCL-range eFAST parameter.
+S,1.0,1.4,1.0,linear,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+Vc_tdb,35.0,36.78,35.0,linear,dlbcl_range_efast,PK_exposure,true,Previous DLBCL-range eFAST parameter.
+Vm_tdb,0.0,212.0,212.0,linear,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+Vp_tdb,110.0,173.47,110.0,linear,dlbcl_range_efast,PK_exposure,true,Previous DLBCL-range eFAST parameter.
+Vtumor,1.0,100.0,1.0,log10,dlbcl_range_efast,tumor_burden_growth_infiltration,true,Previous DLBCL-range eFAST parameter.
+fAICD,1.0,1.497,1.0,linear,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+fBexit,0.333,1.0,1.0,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+fBkill,0.1,1.0,1.0,log10,dlbcl_range_efast,b_cell_killing,true,Previous DLBCL-range eFAST parameter.
+fKmTB_kill,1.0,10.0,1.0,log10,dlbcl_range_efast,b_cell_killing,true,Previous DLBCL-range eFAST parameter.
+fTa0apop,1.0,2.019,1.0,linear,dlbcl_range_efast,t_cell_activation_infiltration,true,Previous DLBCL-range eFAST parameter.
+fTa0deact,0.001,1.0,1.0,log10,dlbcl_range_efast,t_cell_activation_infiltration,true,Previous DLBCL-range eFAST parameter.
+fTact,0.25,1.0,1.0,log10,dlbcl_range_efast,t_cell_activation_infiltration,true,Previous DLBCL-range eFAST parameter.
+fTadeact,0.0,0.005,0.0,linear,dlbcl_range_efast,t_cell_activation_infiltration,true,Previous DLBCL-range eFAST parameter.
+fTaprolif,2.0,2.106,2.0,linear,dlbcl_range_efast,t_cell_activation_infiltration,true,Previous DLBCL-range eFAST parameter.
+fTrapop,0.1,0.2,0.1,linear,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+fa0,0.002,0.5,0.5,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+fapop_v24,0.0,1.0,0.0,linear,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+fbio_TDB,0.0,0.6,0.6,linear,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+fdrug,1.0,6.3839,1.0,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+finj,0.1,1.0,0.1,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+kBapop,0.02,0.03,0.03,linear,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+kBkill,1.0,275.189,1.0,log10,dlbcl_range_efast,b_cell_killing,true,Previous DLBCL-range eFAST parameter.
+kBprolif,0.05,0.7,0.7,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+kBtiss3exit,0.03,0.041,0.03,linear,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+kTaapop,0.061,0.5,0.5,log10,dlbcl_range_efast,t_cell_activation_infiltration,true,Previous DLBCL-range eFAST parameter.
+kTact,1.0,9.828,1.0,log10,dlbcl_range_efast,t_cell_activation_infiltration,true,Previous DLBCL-range eFAST parameter.
+kTaexit,0.123,1.0,1.0,log10,dlbcl_range_efast,t_cell_activation_infiltration,true,Previous DLBCL-range eFAST parameter.
+kTrexit,0.045,1.0,1.0,log10,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+kabs_TDB,0.0,1.4,1.4,linear,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+ndrugactT,0.8,1.0,1.0,linear,dlbcl_range_efast,other_model,true,Previous DLBCL-range eFAST parameter.
+nkill,1.027,2.0,2.0,linear,dlbcl_range_efast,b_cell_killing,true,Previous DLBCL-range eFAST parameter.
+tumor_burden_factor,0.5,1.5,1.0,linear,forced_susilo_latent,tumor_burden_growth_infiltration,false,Latent variable; derives KBptumor and KTrptumor from baseline tumor burden.
+BT_ratio_tumor_init,4.0,80.0,20.0,log10,forced_susilo_latent,tumor_burden_growth_infiltration,false,Latent tumor B:T infiltration ratio; derives KTrptumor.
+kBtumorprolif,0.0,0.15,0.0,linear,forced_susilo_response,tumor_burden_growth_infiltration,true,Forced Susilo tumor proliferation response variable.
+kIL6prod,1.0,14.0,1.0,log10,curated_sensitivity_only,IL6,true,Curated IL6 production range; old DLBCL table had no variable bound.
+thalfIL6,5.0,120.0,20.0,log10,curated_sensitivity_only,IL6,true,Curated IL6 half-life/clearance sensitivity range in minutes.
+dummy_null_1,0.0,1.0,0.0,linear,dummy_null,dummy_null,false,Inert null parameter sampled for dummy-threshold significance; never applied to the model.
+dummy_null_2,0.0,1.0,0.0,linear,dummy_null,dummy_null,false,Inert null parameter sampled for dummy-threshold significance; never applied to the model.
+dummy_null_3,0.0,1.0,0.0,linear,dummy_null,dummy_null,false,Inert null parameter sampled for dummy-threshold significance; never applied to the model.

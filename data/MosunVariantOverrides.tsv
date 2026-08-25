@@ -1,0 +1,360 @@
+idx	variant	content_index	action	class	name	value
+1	act0 unopt	1	parameter	fTaprolif	Value	0.65
+1	act0 unopt	2	parameter	kTaapop	Value	0.05
+1	act0 unopt	3	parameter	fTrapop	Value	5000
+1	act0 unopt	4	parameter	fTa0apop	Value	1
+1	act0 unopt	5	parameter	fa0	Value	0
+1	act0 unopt	6	parameter	fAICD	Value	1
+1	act0 unopt	7	parameter	kTact	Value	4
+1	act0 unopt	8	parameter	fTadeact	Value	0.01
+1	act0 unopt	9	parameter	fTa0deact	Value	0.1
+1	act0 unopt	10	parameter	kBkill	Value	10000
+1	act0 unopt	11	parameter	kTaexit	Value	100
+1	act0 unopt	12	parameter	finj	Value	0.1
+1	act0 unopt	13	parameter	fBexit	Value	0
+1	act0 unopt	14	parameter	kTgen	Value	0
+1	act0 unopt	15	parameter	KdrugactT	Value	150
+1	act0 unopt	16	parameter	KdrugB	Value	10
+1	act0 unopt	17	parameter	KmBT_act	Value	1
+1	act0 unopt	18	parameter	nkill	Value	2
+1	act0 unopt	19	parameter	Trpbo_perml	Value	2000000
+1	act0 unopt	20	parameter	Bpbo_perml	Value	1000000
+1	act0 unopt	21	parameter	kBapop	Value	0.015
+1	act0 unopt	22	parameter	kBprolif	Value	0.7
+1	act0 unopt	23	parameter	fBprolif	Value	0
+1	act0 unopt	24	parameter	act0on	Value	1
+2	combo tissues 1	1	parameter	Vpb	Value	380
+2	combo tissues 1	2	parameter	Trpbo_perml	Value	2000000
+2	combo tissues 1	3	parameter	Trpbref_perml	Value	2000000
+2	combo tissues 1	4	parameter	Bpbo_perml	Value	1000000
+2	combo tissues 1	5	parameter	Bpbref_perml	Value	1000000
+2	combo tissues 1	6	parameter	tissue1on	Value	1
+2	combo tissues 1	7	parameter	Vtissue	Value	7
+2	combo tissues 1	8	parameter	KTrp	Value	500
+2	combo tissues 1	9	parameter	fTap	Value	11.1
+2	combo tissues 1	10	parameter	KBp	Value	900
+2	combo tissues 1	11	parameter	tissue2on	Value	1
+2	combo tissues 1	12	parameter	Vtissue2	Value	25
+2	combo tissues 1	13	parameter	KTrp2	Value	500
+2	combo tissues 1	14	parameter	KBp2	Value	600
+3	act optimizn 1	1	parameter	fTaprolif	Value	0.63
+3	act optimizn 1	2	parameter	kTaapop	Value	0.05
+3	act optimizn 1	3	parameter	fTrapop	Value	3.8
+3	act optimizn 1	4	parameter	fTa0apop	Value	1.3
+3	act optimizn 1	5	parameter	fa0	Value	0.26
+3	act optimizn 1	6	parameter	fAICD	Value	1
+3	act optimizn 1	7	parameter	kTact	Value	9.23
+3	act optimizn 1	8	parameter	fTadeact	Value	0.1
+3	act optimizn 1	9	parameter	fTa0deact	Value	0.02
+3	act optimizn 1	10	parameter	kBkill	Value	915
+3	act optimizn 1	11	parameter	kTaexit	Value	6577
+3	act optimizn 1	12	parameter	fBexit	Value	0
+3	act optimizn 1	13	parameter	kTgen	Value	1
+3	act optimizn 1	14	parameter	KdrugactT	Value	122
+3	act optimizn 1	15	parameter	KdrugB	Value	0.3
+3	act optimizn 1	16	parameter	KmBT_act	Value	0.43
+3	act optimizn 1	17	parameter	nkill	Value	1
+3	act optimizn 1	18	parameter	Trpbo_perml	Value	2000000
+3	act optimizn 1	19	parameter	Bpbo_perml	Value	1000000
+3	act optimizn 1	20	parameter	kBapop	Value	0.015
+3	act optimizn 1	21	parameter	kBprolif	Value	0.7
+3	act optimizn 1	22	parameter	fBprolif	Value	0
+3	act optimizn 1	23	parameter	act0on	Value	1
+3	act optimizn 1	24	parameter	finj	Value	0.66
+4	act optimizn 2a	1	parameter	fTaprolif	Value	9.5
+4	act optimizn 2a	2	parameter	kTaapop	Value	0.4
+4	act optimizn 2a	3	parameter	fTrapop	Value	33
+4	act optimizn 2a	4	parameter	fTa0apop	Value	3.2
+4	act optimizn 2a	5	parameter	fa0	Value	0.54
+4	act optimizn 2a	6	parameter	fAICD	Value	1
+4	act optimizn 2a	7	parameter	kTact	Value	7.6
+4	act optimizn 2a	8	parameter	fTadeact	Value	0.001
+4	act optimizn 2a	9	parameter	fTa0deact	Value	1
+4	act optimizn 2a	10	parameter	kBkill	Value	470
+4	act optimizn 2a	11	parameter	kTaexit	Value	1
+4	act optimizn 2a	12	parameter	fBexit	Value	0
+4	act optimizn 2a	13	parameter	kTgen	Value	1
+4	act optimizn 2a	14	parameter	KdrugactT	Value	40
+4	act optimizn 2a	15	parameter	KdrugB	Value	7.5
+4	act optimizn 2a	16	parameter	KmBT_act	Value	5.7
+4	act optimizn 2a	17	parameter	nkill	Value	1
+4	act optimizn 2a	18	parameter	Trpbo_perml	Value	2000000
+4	act optimizn 2a	19	parameter	Bpbo_perml	Value	1000000
+4	act optimizn 2a	20	parameter	kBapop	Value	0.015
+4	act optimizn 2a	21	parameter	kBprolif	Value	0.7
+4	act optimizn 2a	22	parameter	fBprolif	Value	0
+4	act optimizn 2a	23	parameter	act0on	Value	1
+4	act optimizn 2a	24	parameter	finj	Value	0.2
+5	combo tissues 2a	1	parameter	Vpb	Value	380
+5	combo tissues 2a	2	parameter	Trpbo_perml	Value	2000000
+5	combo tissues 2a	3	parameter	Trpbref_perml	Value	2000000
+5	combo tissues 2a	4	parameter	Bpbo_perml	Value	1000000
+5	combo tissues 2a	5	parameter	Bpbref_perml	Value	1000000
+5	combo tissues 2a	6	parameter	tissue1on	Value	1
+5	combo tissues 2a	7	parameter	Vtissue	Value	7
+5	combo tissues 2a	8	parameter	KTrp	Value	500
+5	combo tissues 2a	9	parameter	fTap	Value	2.4
+5	combo tissues 2a	10	parameter	KBp	Value	900
+5	combo tissues 2a	11	parameter	tissue2on	Value	1
+5	combo tissues 2a	12	parameter	Vtissue2	Value	25
+5	combo tissues 2a	13	parameter	KTrp2	Value	500
+5	combo tissues 2a	14	parameter	KBp2	Value	600
+6	act optimizn 2b	1	parameter	fTaprolif	Value	3.76
+6	act optimizn 2b	2	parameter	kTaapop	Value	0.3
+6	act optimizn 2b	3	parameter	fTrapop	Value	446
+6	act optimizn 2b	4	parameter	fTa0apop	Value	0.3
+6	act optimizn 2b	5	parameter	fa0	Value	0.24
+6	act optimizn 2b	6	parameter	fAICD	Value	1
+6	act optimizn 2b	7	parameter	kTact	Value	1.9
+6	act optimizn 2b	8	parameter	fTadeact	Value	0.004
+6	act optimizn 2b	9	parameter	fTa0deact	Value	0.012
+6	act optimizn 2b	10	parameter	kBkill	Value	661
+6	act optimizn 2b	11	parameter	kTaexit	Value	158
+6	act optimizn 2b	12	parameter	fBexit	Value	0
+6	act optimizn 2b	13	parameter	kTgen	Value	1
+6	act optimizn 2b	14	parameter	KdrugactT	Value	163
+6	act optimizn 2b	15	parameter	KdrugB	Value	0.4
+6	act optimizn 2b	16	parameter	KmBT_act	Value	0.025
+6	act optimizn 2b	17	parameter	nkill	Value	1.44
+6	act optimizn 2b	18	parameter	Trpbo_perml	Value	2000000
+6	act optimizn 2b	19	parameter	Bpbo_perml	Value	1000000
+6	act optimizn 2b	20	parameter	kBapop	Value	0.015
+6	act optimizn 2b	21	parameter	kBprolif	Value	0.7
+6	act optimizn 2b	22	parameter	fBprolif	Value	0
+6	act optimizn 2b	23	parameter	act0on	Value	1
+6	act optimizn 2b	24	parameter	finj	Value	0.44
+7	combo tissues 2b	1	parameter	Vpb	Value	380
+7	combo tissues 2b	2	parameter	Trpbo_perml	Value	2000000
+7	combo tissues 2b	3	parameter	Trpbref_perml	Value	2000000
+7	combo tissues 2b	4	parameter	Bpbo_perml	Value	1000000
+7	combo tissues 2b	5	parameter	Bpbref_perml	Value	1000000
+7	combo tissues 2b	6	parameter	tissue1on	Value	1
+7	combo tissues 2b	7	parameter	Vtissue	Value	7
+7	combo tissues 2b	8	parameter	KTrp	Value	500
+7	combo tissues 2b	9	parameter	fTap	Value	2.6
+7	combo tissues 2b	10	parameter	KBp	Value	900
+7	combo tissues 2b	11	parameter	tissue2on	Value	1
+7	combo tissues 2b	12	parameter	Vtissue2	Value	25
+7	combo tissues 2b	13	parameter	KTrp2	Value	500
+7	combo tissues 2b	14	parameter	KBp2	Value	600
+8	initialTdepleted	1	parameter	depleteTpb	Value	1
+9	Tgeneration	1	parameter	fTgenbl	Value	0
+9	Tgeneration	2	parameter	kTgen	Value	1
+10	Tgeneration 2b	1	parameter	fTgenbl	Value	1
+10	Tgeneration 2b	2	parameter	kTgen	Value	1
+11	act optimizn 2a_modified	1	parameter	fTaprolif	Value	10
+11	act optimizn 2a_modified	2	parameter	kTaapop	Value	0.4
+11	act optimizn 2a_modified	3	parameter	fTrapop	Value	24
+11	act optimizn 2a_modified	4	parameter	fTa0apop	Value	2.4
+11	act optimizn 2a_modified	5	parameter	fa0	Value	0.017
+11	act optimizn 2a_modified	6	parameter	fAICD	Value	1
+11	act optimizn 2a_modified	7	parameter	kTact	Value	7.6
+11	act optimizn 2a_modified	8	parameter	fTadeact	Value	0.001
+11	act optimizn 2a_modified	9	parameter	fTa0deact	Value	1
+11	act optimizn 2a_modified	10	parameter	kBkill	Value	470
+11	act optimizn 2a_modified	11	parameter	kTaexit	Value	1
+11	act optimizn 2a_modified	12	parameter	fBexit	Value	0
+11	act optimizn 2a_modified	13	parameter	kTgen	Value	1
+11	act optimizn 2a_modified	14	parameter	KdrugactT	Value	100
+11	act optimizn 2a_modified	15	parameter	KdrugB	Value	7.5
+11	act optimizn 2a_modified	16	parameter	KmBT_act	Value	5.7
+11	act optimizn 2a_modified	17	parameter	nkill	Value	1
+11	act optimizn 2a_modified	18	parameter	Trpbo_perml	Value	2000000
+11	act optimizn 2a_modified	19	parameter	Bpbo_perml	Value	1000000
+11	act optimizn 2a_modified	20	parameter	kBapop	Value	0.03
+11	act optimizn 2a_modified	21	parameter	kBprolif	Value	0.7
+11	act optimizn 2a_modified	22	parameter	fBprolif	Value	0
+11	act optimizn 2a_modified	23	parameter	act0on	Value	1
+11	act optimizn 2a_modified	24	parameter	fdrug	Value	5.26
+12	initialBdepleted	1	parameter	depleteBpb	Value	1
+13	finj optimization	1	parameter	kTrexit	Value	0.03
+13	finj optimization	2	parameter	finj	Value	1.2
+14	tissue3	1	parameter	KTrp3	Value	50
+14	tissue3	2	parameter	KBp3	Value	60
+14	tissue3	3	parameter	tissue3on	Value	1
+14	tissue3	4	parameter	Vtissue3	Value	50
+14	tissue3	5	parameter	kBtiss3exit	Value	0.041
+14	tissue3	6	parameter	fBtissue3_v1	Value	1
+14	tissue3	7	parameter	kBmat_kBapop_ratio	Value	0.25
+15	validation	1	parameter	fvalidation	Value	1
+16	act optimizn v24	1	parameter	fTaprolif	Value	9.806
+16	act optimizn v24	2	parameter	kTaapop	Value	0.639
+16	act optimizn v24	3	parameter	fTrapop	Value	0.249
+16	act optimizn v24	4	parameter	fTa0apop	Value	0.313
+16	act optimizn v24	5	parameter	fa0	Value	0.002
+16	act optimizn v24	6	parameter	fAICD	Value	22.027
+16	act optimizn v24	7	parameter	kTact	Value	8.278
+16	act optimizn v24	8	parameter	fTadeact	Value	0.002
+16	act optimizn v24	9	parameter	fTa0deact	Value	1
+16	act optimizn v24	10	parameter	kBkill	Value	510.411
+16	act optimizn v24	11	parameter	kTaexit	Value	1.506
+16	act optimizn v24	12	parameter	KdrugactT	Value	600
+16	act optimizn v24	13	parameter	KdrugB	Value	0.228
+16	act optimizn v24	14	parameter	nkill	Value	1.002
+16	act optimizn v24	15	parameter	KmBT_act	Value	3.681
+16	act optimizn v24	16	parameter	fTap	Value	1.52
+16	act optimizn v24	17	parameter	kBapop	Value	0.182
+16	act optimizn v24	18	parameter	fdrug	Value	6.999
+16	act optimizn v24	19	parameter	kTrexit	Value	0.056
+16	act optimizn v24	20	parameter	finj	Value	0.585
+16	act optimizn v24	21	parameter	fapop_v24	Value	1
+16	act optimizn v24	22	parameter	ndrugactT	Value	0.7
+16	act optimizn v24	23	parameter	fBkill	Value	0.001959
+17	tissue3_v2	1	parameter	KTrp3	Value	50
+17	tissue3_v2	2	parameter	KBp3	Value	60
+17	tissue3_v2	3	parameter	tissue3on	Value	1
+17	tissue3_v2	4	parameter	Vtissue3	Value	50
+17	tissue3_v2	5	parameter	kBtiss3exit	Value	1
+17	tissue3_v2	6	parameter	fBtissue3_v1	Value	0
+17	tissue3_v2	7	parameter	kBmat_kBapop_ratio	Value	0.2218935
+17	tissue3_v2	8	parameter	kBapop	Value	0.005
+18	B cell migration	1	parameter	fBexit	Value	1
+19	B cell proliferation	1	parameter	kBprolif	Value	0.02
+20	human parameters	1	parameter	Vpb	Value	5000
+20	human parameters	2	parameter	Vtissue	Value	210
+20	human parameters	3	parameter	Vtissue2	Value	400
+20	human parameters	4	parameter	Vtissue3	Value	500
+20	human parameters	5	parameter	Trpbref_perml	Value	500000
+20	human parameters	6	parameter	Trpbo_perml	Value	500000
+20	human parameters	7	parameter	Bpbref_perml	Value	500000
+20	human parameters	8	parameter	Bpbo_perml	Value	500000
+20	human parameters	9	parameter	KTrp	Value	200
+20	human parameters	10	parameter	KBp	Value	333
+20	human parameters	11	parameter	KTrp2	Value	190
+20	human parameters	12	parameter	KBp2	Value	190
+20	human parameters	13	parameter	KTrp3	Value	60
+20	human parameters	14	parameter	KBp3	Value	80
+20	human parameters	15	parameter	Cl_tdb	Value	1.5
+21	human ALL parameters	1	parameter	Vpb	Value	5000
+21	human ALL parameters	2	parameter	Vtissue	Value	210
+21	human ALL parameters	3	parameter	Vtissue2	Value	400
+21	human ALL parameters	4	parameter	Vtissue3	Value	500
+21	human ALL parameters	5	parameter	Trpbref_perml	Value	200000
+21	human ALL parameters	6	parameter	Trpbo_perml	Value	200000
+21	human ALL parameters	7	parameter	Bpbref_perml	Value	70000
+21	human ALL parameters	8	parameter	Bpbo_perml	Value	70000
+21	human ALL parameters	9	parameter	KTrp	Value	200
+21	human ALL parameters	10	parameter	KBp	Value	333
+21	human ALL parameters	11	parameter	KTrp2	Value	190
+21	human ALL parameters	12	parameter	KBp2	Value	190
+21	human ALL parameters	13	parameter	KTrp3	Value	60
+21	human ALL parameters	14	parameter	KBp3	Value	80
+21	human ALL parameters	15	parameter	Cl_tdb	Value	1.5
+22	Blin parameters	1	parameter	KdrugactT_blin	Value	0.1
+22	Blin parameters	2	parameter	ndrugactT_blin	Value	1
+22	Blin parameters	3	parameter	KmBT_act_blin	Value	0.716
+22	Blin parameters	4	parameter	KdrugB_blin	Value	0.15
+22	Blin parameters	5	parameter	nkill_blin	Value	1.027
+22	Blin parameters	6	parameter	KmTB_kill_blin	Value	0.75
+23	human CLL parameters	1	parameter	Vpb	Value	5000
+23	human CLL parameters	2	parameter	Vtissue	Value	210
+23	human CLL parameters	3	parameter	Vtissue2	Value	400
+23	human CLL parameters	4	parameter	Vtissue3	Value	500
+23	human CLL parameters	5	parameter	Trpbref_perml	Value	500000
+23	human CLL parameters	6	parameter	Trpbo_perml	Value	500000
+23	human CLL parameters	7	parameter	Bpbref_perml	Value	500000
+23	human CLL parameters	8	parameter	Bpbo_perml	Value	500000
+23	human CLL parameters	9	parameter	KTrp	Value	200
+23	human CLL parameters	10	parameter	KBp	Value	333
+23	human CLL parameters	11	parameter	KTrp2	Value	190
+23	human CLL parameters	12	parameter	KBp2	Value	190
+23	human CLL parameters	13	parameter	KTrp3	Value	60
+23	human CLL parameters	14	parameter	KBp3	Value	80
+23	human CLL parameters	15	parameter	Cl_tdb	Value	1.5
+23	human CLL parameters	16	parameter	kBapop_cll	Value	0.1215
+24	act optimizn v22_2	1	parameter	fTaprolif	Value	2.106
+24	act optimizn v22_2	2	parameter	kTaapop	Value	0.061
+24	act optimizn v22_2	3	parameter	fTrapop	Value	0.2
+24	act optimizn v22_2	4	parameter	fTa0apop	Value	2.019
+24	act optimizn v22_2	5	parameter	fa0	Value	0.002
+24	act optimizn v22_2	6	parameter	fAICD	Value	1.497
+24	act optimizn v22_2	7	parameter	kTact	Value	9.828
+24	act optimizn v22_2	8	parameter	fTadeact	Value	0.005
+24	act optimizn v22_2	9	parameter	fTa0deact	Value	0.001
+24	act optimizn v22_2	10	parameter	kBkill	Value	275.189
+24	act optimizn v22_2	11	parameter	kTaexit	Value	0.123
+24	act optimizn v22_2	12	parameter	KdrugactT	Value	130.083
+24	act optimizn v22_2	13	parameter	KdrugB	Value	1.302
+24	act optimizn v22_2	14	parameter	nkill	Value	1.027
+24	act optimizn v22_2	15	parameter	KmBT_act	Value	0.716
+24	act optimizn v22_2	16	parameter	fTap	Value	3.773
+24	act optimizn v22_2	17	parameter	kBapop	Value	0.02
+24	act optimizn v22_2	18	parameter	fdrug	Value	6.3839
+24	act optimizn v22_2	19	parameter	kTrexit	Value	0.045
+24	act optimizn v22_2	20	parameter	finj	Value	1
+24	act optimizn v22_2	21	parameter	kBprolif	Value	0.05
+24	act optimizn v22_2	22	parameter	fBexit	Value	0.333
+24	act optimizn v22_2	23	parameter	fBkill	Value	0.1
+24	act optimizn v22_2	24	parameter	fTact	Value	0.25
+24	act optimizn v22_2	25	parameter	fKmTB_kill	Value	10
+24	act optimizn v22_2	26	parameter	S	Value	1.4
+24	act optimizn v22_2	27	parameter	ndrugactT	Value	0.8
+24	act optimizn v22_2	28	parameter	fapop_v24	Value	1
+24	act optimizn v22_2	29	parameter	IL6_tiss_contribution	Value	0.003
+25	human DLBCL parameters	1	parameter	Trpbref_perml	Value	500000
+25	human DLBCL parameters	2	parameter	Trpbo_perml	Value	500000
+25	human DLBCL parameters	3	parameter	Bpbref_perml	Value	250000
+25	human DLBCL parameters	4	parameter	Bpbo_perml	Value	250000
+26	Cyno PK Lin (GUI Fit - all values normalized)	1	parameter	Cl_tdb	Value	8.5
+26	Cyno PK Lin (GUI Fit - all values normalized)	2	parameter	Cld_tdb	Value	24.17
+26	Cyno PK Lin (GUI Fit - all values normalized)	3	parameter	Vc_tdb	Value	36.78
+26	Cyno PK Lin (GUI Fit - all values normalized)	4	parameter	Vp_tdb	Value	173.47
+26	Cyno PK Lin (GUI Fit - all values normalized)	5	parameter	Vm_tdb	Value	0
+26	Cyno PK Lin (GUI Fit - all values normalized)	6	parameter	Km_tdb	Value	5.72
+27	Human PK Lin (GUI Fit - all values normalized)	1	parameter	Cl_tdb	Value	5.4
+27	Human PK Lin (GUI Fit - all values normalized)	2	parameter	Cld_tdb	Value	24.17
+27	Human PK Lin (GUI Fit - all values normalized)	3	parameter	Vc_tdb	Value	36.78
+27	Human PK Lin (GUI Fit - all values normalized)	4	parameter	Vp_tdb	Value	173.47
+27	Human PK Lin (GUI Fit - all values normalized)	5	parameter	Vm_tdb	Value	0
+27	Human PK Lin (GUI Fit - all values normalized)	6	parameter	Km_tdb	Value	5.72
+27	Human PK Lin (GUI Fit - all values normalized)	7	parameter	kabs_TDB	Value	0
+27	Human PK Lin (GUI Fit - all values normalized)	8	parameter	fbio_TDB	Value	0
+28	Tumor compartment - DLBCL	1	parameter	tumor_on	Value	1
+28	Tumor compartment - DLBCL	2	parameter	Vtumor	Value	100
+28	Tumor compartment - DLBCL	3	parameter	KTrptumor	Value	100
+28	Tumor compartment - DLBCL	4	parameter	KBptumor	Value	1600
+28	Tumor compartment - DLBCL	5	parameter	Kptumor	Value	0.05
+28	Tumor compartment - DLBCL	6	parameter	kBtumorprolif	Value	0.025
+28	Tumor compartment - DLBCL	7	parameter	IL6_tiss_contribution	Value	0.0004
+29	Human PK Lin (GUI Fit - all values normalized) - SC - Ave Abs - Ave fbio	1	parameter	Cl_tdb	Value	5.4
+29	Human PK Lin (GUI Fit - all values normalized) - SC - Ave Abs - Ave fbio	2	parameter	Cld_tdb	Value	24.17
+29	Human PK Lin (GUI Fit - all values normalized) - SC - Ave Abs - Ave fbio	3	parameter	Vc_tdb	Value	36.78
+29	Human PK Lin (GUI Fit - all values normalized) - SC - Ave Abs - Ave fbio	4	parameter	Vp_tdb	Value	173.47
+29	Human PK Lin (GUI Fit - all values normalized) - SC - Ave Abs - Ave fbio	5	parameter	Vm_tdb	Value	0
+29	Human PK Lin (GUI Fit - all values normalized) - SC - Ave Abs - Ave fbio	6	parameter	Km_tdb	Value	5.72
+29	Human PK Lin (GUI Fit - all values normalized) - SC - Ave Abs - Ave fbio	7	parameter	kabs_TDB	Value	0.35
+29	Human PK Lin (GUI Fit - all values normalized) - SC - Ave Abs - Ave fbio	8	parameter	fbio_TDB	Value	0.5
+30	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - High fbio	1	parameter	Cl_tdb	Value	5.4
+30	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - High fbio	2	parameter	Cld_tdb	Value	24.17
+30	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - High fbio	3	parameter	Vc_tdb	Value	36.78
+30	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - High fbio	4	parameter	Vp_tdb	Value	173.47
+30	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - High fbio	5	parameter	Vm_tdb	Value	0
+30	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - High fbio	6	parameter	Km_tdb	Value	5.72
+30	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - High fbio	7	parameter	kabs_TDB	Value	0.5
+30	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - High fbio	8	parameter	fbio_TDB	Value	0.8
+31	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Low fbio	1	parameter	Cl_tdb	Value	5.4
+31	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Low fbio	2	parameter	Cld_tdb	Value	24.17
+31	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Low fbio	3	parameter	Vc_tdb	Value	36.78
+31	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Low fbio	4	parameter	Vp_tdb	Value	173.47
+31	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Low fbio	5	parameter	Vm_tdb	Value	0
+31	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Low fbio	6	parameter	Km_tdb	Value	5.72
+31	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Low fbio	7	parameter	kabs_TDB	Value	0.2
+31	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Low fbio	8	parameter	fbio_TDB	Value	0.2
+32	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - Ave fbio	1	parameter	Cl_tdb	Value	5.4
+32	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - Ave fbio	2	parameter	Cld_tdb	Value	24.17
+32	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - Ave fbio	3	parameter	Vc_tdb	Value	36.78
+32	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - Ave fbio	4	parameter	Vp_tdb	Value	173.47
+32	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - Ave fbio	5	parameter	Vm_tdb	Value	0
+32	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - Ave fbio	6	parameter	Km_tdb	Value	5.72
+32	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - Ave fbio	7	parameter	kabs_TDB	Value	0.5
+32	Human PK Lin (GUI Fit - all values normalized) - SC - Fast Abs - Ave fbio	8	parameter	fbio_TDB	Value	0.5
+33	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Ave fbio	1	parameter	Bcell_tumor_trafficking_on	Value	5.4
+33	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Ave fbio	2	parameter	Cld_tdb	Value	24.17
+33	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Ave fbio	3	parameter	Vc_tdb	Value	36.78
+33	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Ave fbio	4	parameter	Vp_tdb	Value	173.47
+33	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Ave fbio	5	parameter	Vm_tdb	Value	0
+33	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Ave fbio	6	parameter	Km_tdb	Value	5.72
+33	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Ave fbio	7	parameter	kabs_TDB	Value	0.2
+33	Human PK Lin (GUI Fit - all values normalized) - SC - Slow Abs - Ave fbio	8	parameter	fbio_TDB	Value	0.5
+34	Tumor B cell off	1	parameter	Bcell_tumor_trafficking_on	Value	0
+35	chimp - blin	1	parameter	IL6_tiss_contribution	Value	0.0004

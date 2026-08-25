@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying manuscript."
+title: "DiffDose: Differentiable Programming for Personalized Dose-Regimen Optimal Control"
+type: software
+repository-code: "https://github.com/Craig-Lab/DiffDose"
+authors:
+  - family-names: "Hajhashemi"
+    given-names: "Shayan"
+  - family-names: "Emad"
+    given-names: "Amin"
+  - family-names: "Craig"
+    given-names: "Morgan"
+license: "BSD-3-Clause"
