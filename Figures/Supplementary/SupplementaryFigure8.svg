@@ -5584,4 +5584,7 @@
      y="56.016964"
      rx="5.3011174"
      ry="5.3011174" />
+<style id="round3-axis-weight-overrides">
+#text734, #text785, #text794 { font-weight: normal !important; }
+</style>
 </svg>

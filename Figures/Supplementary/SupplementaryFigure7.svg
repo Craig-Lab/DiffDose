@@ -5,7 +5,7 @@
    viewBox="0 0 866.432867 976.663012"
    version="1.1"
    id="svg6540"
-   sodipodi:docname="vpop250_hosseini_digitized_violin_spaghetti_supplement.svg"
+   sodipodi:docname="SupplementaryFigure7.svg"
    inkscape:version="1.3 (0e150ed, 2023-07-21)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -25,13 +25,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
-     inkscape:zoom="0.75072638"
-     inkscape:cx="711.31109"
-     inkscape:cy="617.40204"
-     inkscape:window-width="2560"
-     inkscape:window-height="1440"
+     inkscape:zoom="0.6263817"
+     inkscape:cx="554.77355"
+     inkscape:cy="664.93002"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="28"
      inkscape:window-maximized="0"
      inkscape:current-layer="figure_1" />
   <metadata
@@ -7034,15 +7034,6 @@
          id="path1060" />
     </g>
     <g
-       id="text_11"
-       transform="translate(21.179841,43.234718)">
-      <text
-         style="font-weight:700;font-size:14px;font-family:'DejaVu Sans';text-anchor:start"
-         x="90.961304"
-         y="17.837812"
-         id="text1060">Peak IL-6</text>
-    </g>
-    <g
        id="LineCollection_1"
        transform="translate(0,42)">
       <path
@@ -7242,7 +7233,7 @@
     </g>
     <g
        id="text_12"
-       transform="translate(-5.0428194,21.473284)">
+       transform="matrix(1.7120957,0,0,1.7120957,-147.66826,-9.2018077)">
       <path
          d="m 99.113713,34.762001 q -0.765625,0 -1.152812,0.260312 -0.385,0.258125 -0.385,0.765625 0,0.46375 0.310625,0.728438 0.312812,0.2625 0.86625,0.2625 0.689062,0 1.161562,-0.494375 0.472502,-0.496563 0.472502,-1.2425 v -0.28 z m 3.740627,-0.923125 v 4.368437 h -2.4675 v -1.135312 q -0.492189,0.697812 -1.109064,1.017187 -0.614688,0.317188 -1.49625,0.317188 -1.19,0 -1.931563,-0.693438 -0.741562,-0.695625 -0.741562,-1.8025 0,-1.3475 0.925312,-1.975312 0.9275,-0.63 2.909375,-0.63 h 1.443752 v -0.190313 q 0,-0.581875 -0.459377,-0.850937 -0.457187,-0.27125 -1.428437,-0.27125 -0.785313,0 -1.463438,0.1575 -0.675937,0.1575 -1.257812,0.4725 v -1.865938 q 0.7875,-0.1925 1.579375,-0.290937 0.794062,-0.09844 1.585937,-0.09844 2.071562,0 2.990312,0.815938 0.92094,0.815937 0.92094,2.655625 z"
          style="fill:#1a1a1a;stroke:#ffffff;stroke-width:1.5"
@@ -13652,15 +13643,6 @@
          id="path2093" />
     </g>
     <g
-       id="text_24"
-       transform="translate(20.731105,43.234718)">
-      <text
-         style="font-weight:700;font-size:14px;font-family:'DejaVu Sans';text-anchor:start"
-         x="372.63425"
-         y="17.837812"
-         id="text2093">Peak activated T cells</text>
-    </g>
-    <g
        id="LineCollection_9"
        transform="translate(0,42)">
       <path
@@ -13846,7 +13828,7 @@
     </g>
     <g
        id="text_25"
-       transform="translate(-4.9574382,22.871096)">
+       transform="matrix(1.7120957,0,0,1.7120957,-347.48004,-6.8086198)">
       <path
          d="m 381.42979,36.629032 q 0.78531,0 1.19875,-0.573125 0.41563,-0.575313 0.41563,-1.669063 0,-1.09375 -0.41563,-1.666875 -0.41344,-0.575312 -1.19875,-0.575312 -0.78531,0 -1.2075,0.5775 -0.42,0.5775 -0.42,1.664687 0,1.087188 0.42,1.664688 0.42219,0.5775 1.2075,0.5775 z m -1.6275,-4.956875 q 0.5075,-0.669375 1.12219,-0.986563 0.61469,-0.317187 1.41531,-0.317187 1.41531,0 2.32313,1.124375 0.91,1.124375 0.91,2.894062 0,1.769688 -0.91,2.89625 -0.90782,1.124375 -2.32313,1.124375 -0.80062,0 -1.41531,-0.317187 -0.61469,-0.319375 -1.12219,-0.98875 v 1.106875 h -2.44562 V 27.570594 h 2.44562 z"
          style="fill:#1a1a1a;stroke:#ffffff;stroke-width:1.5"
@@ -20302,15 +20284,6 @@
          id="path3128" />
     </g>
     <g
-       id="text_39"
-       transform="translate(21.632457,41.894874)">
-      <text
-         style="font-weight:700;font-size:14px;font-family:'DejaVu Sans';text-anchor:start"
-         x="654.30719"
-         y="17.837812"
-         id="text3128">Day-84 tumor change</text>
-    </g>
-    <g
        id="LineCollection_17"
        transform="translate(0,42)">
       <path
@@ -20496,7 +20469,7 @@
     </g>
     <g
        id="text_40"
-       transform="translate(-4.9574382,21.473283)">
+       transform="matrix(1.7120957,0,0,1.7120957,-553.42474,-9.2018094)">
       <path
          d="m 665.21587,30.789501 v 1.997187 q -0.49875,-0.34125 -1.00188,-0.505312 -0.50312,-0.164063 -1.04343,-0.164063 -1.02375,0 -1.59469,0.597188 -0.57094,0.597187 -0.57094,1.67125 0,1.074062 0.57094,1.673437 0.57094,0.597188 1.59469,0.597188 0.57531,0 1.09156,-0.170625 0.51625,-0.172813 0.95375,-0.5075 v 2.00375 q -0.57531,0.212187 -1.16594,0.317187 -0.59062,0.107188 -1.18562,0.107188 -2.07157,0 -3.24188,-1.063125 -1.16812,-1.063125 -1.16812,-2.9575 0,-1.894375 1.16812,-2.955313 1.17031,-1.063125 3.24188,-1.063125 0.60156,0 1.18562,0.105 0.58407,0.105 1.16594,0.317188 z"
          style="fill:#1a1a1a;stroke:#ffffff;stroke-width:1.5"
@@ -48547,4 +48520,12 @@
          id="rect6540" />
     </clipPath>
   </defs>
+<style id="round3-axis-weight-overrides">
+#text60, #text1093, #text2128,
+#text3195, #text3196, #text3464, #text3465, #text3981, #text3982,
+#text4039, #text4040, #text4308, #text4309, #text4825, #text4826,
+#text4883, #text4884, #text5152, #text5153, #text5669, #text5670,
+#text5681, #text5727, #text5728, #text5990, #text5997, #text5998,
+#text6510, #text6515, #text6516 { font-weight: normal !important; }
+</style>
 </svg>

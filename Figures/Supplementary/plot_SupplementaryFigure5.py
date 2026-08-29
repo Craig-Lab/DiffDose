@@ -23,7 +23,7 @@ def main() -> None:
         axes[1].plot(subset["iteration"], values)
     axes[0].set_xlabel("Wall-clock time (s)")
     axes[1].set_xlabel("Iteration / evaluation")
-    axes[0].set_ylabel("BiTE loss")
+    axes[0].set_ylabel(r"Objective $J(u)$")
     for axis in axes:
         axis.set_yscale("log")
     axes[0].legend(frameon=False, fontsize=7)
